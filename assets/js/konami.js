@@ -38,10 +38,10 @@ var allowedKeys = {
   });
   
   function activateCheats() {
-    document.body.style.backgroundImage = "url('images/cheatBackground.png')";
+    document.body.style.backgroundImage = "url('assets\img\khaby-lame-01.jpg')";
   
     var audio = new Audio('audio/pling.mp3');
     audio.play();
   
-    alert("cheats activated");
+    alert("Close your eyes, and you'll leave this dream");
   }
